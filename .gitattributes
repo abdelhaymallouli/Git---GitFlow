@@ -32,3 +32,8 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+
+* text=auto eol=lf
+*.bat text eol=crlf
+*.sh  text eol=lf
