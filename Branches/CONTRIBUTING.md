@@ -117,6 +117,7 @@ To create and push a tag:
 ```bash
 git tag v1.1.0
 git push origin v1.1.0
+
 ```
 
 ---
@@ -129,6 +130,7 @@ After each **release** or **hotfix**, merge `main` back into `develop`:
 git checkout develop
 git merge main
 git push origin develop
+
 ```
 
 This ensures `develop` stays up to date with the latest production code.
