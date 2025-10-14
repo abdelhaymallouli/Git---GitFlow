@@ -96,26 +96,6 @@ git push
 
 ---
 
-## **Step 5: Normalize Line Endings (Optional for Multi-OS Teams)**
-
-Create `.gitattributes` with:
-
-```
-* text=auto eol=lf
-*.bat text eol=crlf
-*.sh  text eol=lf
-```
-
-**Explanation:**
-
-* Prevents false diffs caused by Windows vs Mac/Linux line endings.
-
-**Deliverable Task:**
-
-* Include `.gitattributes` in your repo.
-* Note in your deliverable why this is important.
-
----
 
 ## **Step 6: Pull Request Preparation**
 
